@@ -1,0 +1,2203 @@
+{
+  "seedDataNotice": "SEED/DEMO DATA - entirely fictional people generated for local testing. Do not treat as real personal data.",
+  "generatedBy": "npm run seed (scripts/seed.ts) - deterministic, safe to re-run",
+  "viewerId": "20d1db65-b2c0-fb3c-f1bc-3eaaed00d0ae",
+  "anchor": {
+    "lat": 51.5386,
+    "lng": -0.0166,
+    "label": "London Stadium forecourt (demo anchor)"
+  },
+  "radiusM": 100,
+  "people": [
+    {
+      "id": "20d1db65-b2c0-fb3c-f1bc-3eaaed00d0ae",
+      "handle": "demo_viewer",
+      "displayName": "Demo Viewer",
+      "avatarEmoji": "🧭",
+      "headline": "Seed account used as the map centre",
+      "attributes": [
+        {
+          "kind": "company",
+          "slug": "nimbus-freight",
+          "label": "Nimbus Freight",
+          "visibility": "public",
+          "weight": 1
+        },
+        {
+          "kind": "sport",
+          "slug": "five-a-side",
+          "label": "Five-a-side football",
+          "visibility": "public",
+          "weight": 1
+        },
+        {
+          "kind": "sport",
+          "slug": "bouldering",
+          "label": "Bouldering",
+          "visibility": "public",
+          "weight": 1
+        },
+        {
+          "kind": "interest",
+          "slug": "board-games",
+          "label": "Board games",
+          "visibility": "public",
+          "weight": 1
+        },
+        {
+          "kind": "interest",
+          "slug": "street-food",
+          "label": "Street food",
+          "visibility": "public",
+          "weight": 1
+        },
+        {
+          "kind": "interest",
+          "slug": "vinyl-records",
+          "label": "Vinyl records",
+          "visibility": "public",
+          "weight": 1
+        },
+        {
+          "kind": "school",
+          "slug": "thameside-poly",
+          "label": "Thameside Polytechnic",
+          "visibility": "public",
+          "weight": 1
+        },
+        {
+          "kind": "language",
+          "slug": "portuguese",
+          "label": "Portuguese",
+          "visibility": "public",
+          "weight": 1
+        },
+        {
+          "kind": "goal",
+          "slug": "find-running-buddy",
+          "label": "Find a running buddy",
+          "visibility": "public",
+          "weight": 1
+        }
+      ],
+      "presence": {
+        "lat": 51.5386,
+        "lng": -0.0166,
+        "accuracyM": 8,
+        "discoverable": true,
+        "ghosted": false,
+        "fixAgeSeconds": 3
+      },
+      "demo": {
+        "designedDistanceM": 0,
+        "caseLabel": "viewer (map centre)",
+        "expectedInRange": false
+      }
+    },
+    {
+      "id": "7fd8957d-1bde-379c-de65-161a40d422e7",
+      "handle": "ada_kestrel",
+      "displayName": "Ada Kestrel",
+      "avatarEmoji": "🦅",
+      "headline": "Logistics analyst, permanently hungry",
+      "attributes": [
+        {
+          "kind": "company",
+          "slug": "nimbus-freight",
+          "label": "Nimbus Freight",
+          "visibility": "public",
+          "weight": 1
+        },
+        {
+          "kind": "sport",
+          "slug": "five-a-side",
+          "label": "Five-a-side football",
+          "visibility": "public",
+          "weight": 1
+        },
+        {
+          "kind": "interest",
+          "slug": "street-food",
+          "label": "Street food",
+          "visibility": "public",
+          "weight": 1
+        },
+        {
+          "kind": "goal",
+          "slug": "find-running-buddy",
+          "label": "Find a running buddy",
+          "visibility": "public",
+          "weight": 1
+        }
+      ],
+      "presence": {
+        "lat": 51.5386528,
+        "lng": -0.016582,
+        "accuracyM": 6,
+        "discoverable": true,
+        "ghosted": false,
+        "fixAgeSeconds": 4
+      },
+      "demo": {
+        "designedDistanceM": 6,
+        "caseLabel": "inner band, same company + sport + goal",
+        "expectedInRange": true
+      }
+    },
+    {
+      "id": "7120e0a3-483e-66f4-a9e4-b3b5d58ef4ac",
+      "handle": "bruno_maple",
+      "displayName": "Bruno Maple",
+      "avatarEmoji": "🍁",
+      "headline": "Ops rota wrangler",
+      "attributes": [
+        {
+          "kind": "company",
+          "slug": "nimbus-freight",
+          "label": "Nimbus Freight",
+          "visibility": "public",
+          "weight": 1
+        },
+        {
+          "kind": "sport",
+          "slug": "bouldering",
+          "label": "Bouldering",
+          "visibility": "public",
+          "weight": 1
+        },
+        {
+          "kind": "interest",
+          "slug": "vinyl-records",
+          "label": "Vinyl records",
+          "visibility": "public",
+          "weight": 1
+        },
+        {
+          "kind": "language",
+          "slug": "portuguese",
+          "label": "Portuguese",
+          "visibility": "public",
+          "weight": 1
+        }
+      ],
+      "presence": {
+        "lat": 51.5386262,
+        "lng": -0.016402,
+        "accuracyM": 9,
+        "discoverable": true,
+        "ghosted": false,
+        "fixAgeSeconds": 11
+      },
+      "demo": {
+        "designedDistanceM": 14,
+        "caseLabel": "inner band, four shared attributes",
+        "expectedInRange": true
+      }
+    },
+    {
+      "id": "c7d9d558-4be7-c861-1ae3-2781f4b1bdc7",
+      "handle": "cleo_ravensworth",
+      "displayName": "Cleo Ravensworth",
+      "avatarEmoji": "🎧",
+      "headline": "Sound engineer, crate digger",
+      "attributes": [
+        {
+          "kind": "company",
+          "slug": "harbourline-audio",
+          "label": "Harbourline Audio",
+          "visibility": "public",
+          "weight": 1
+        },
+        {
+          "kind": "interest",
+          "slug": "vinyl-records",
+          "label": "Vinyl records",
+          "visibility": "public",
+          "weight": 1
+        },
+        {
+          "kind": "interest",
+          "slug": "board-games",
+          "label": "Board games",
+          "visibility": "public",
+          "weight": 1
+        },
+        {
+          "kind": "school",
+          "slug": "thameside-poly",
+          "label": "Thameside Polytechnic",
+          "visibility": "public",
+          "weight": 1
+        }
+      ],
+      "presence": {
+        "lat": 51.5384453,
+        "lng": -0.0164258,
+        "accuracyM": 7,
+        "discoverable": true,
+        "ghosted": false,
+        "fixAgeSeconds": 6
+      },
+      "demo": {
+        "designedDistanceM": 21,
+        "caseLabel": "inner band, shared school + interests, different company",
+        "expectedInRange": true
+      }
+    },
+    {
+      "id": "3bc2940d-9848-f22e-86c3-a677ac53b83f",
+      "handle": "dev_pillar",
+      "displayName": "Dev Pillar",
+      "avatarEmoji": "🧱",
+      "headline": "Bricklayer turned site planner",
+      "attributes": [
+        {
+          "kind": "company",
+          "slug": "quayside-build",
+          "label": "Quayside Build",
+          "visibility": "public",
+          "weight": 1
+        },
+        {
+          "kind": "sport",
+          "slug": "bouldering",
+          "label": "Bouldering",
+          "visibility": "public",
+          "weight": 1
+        },
+        {
+          "kind": "goal",
+          "slug": "find-running-buddy",
+          "label": "Find a running buddy",
+          "visibility": "public",
+          "weight": 1
+        }
+      ],
+      "presence": {
+        "lat": 51.5383951,
+        "lng": -0.0167264,
+        "accuracyM": 5,
+        "discoverable": true,
+        "ghosted": false,
+        "fixAgeSeconds": 8
+      },
+      "demo": {
+        "designedDistanceM": 24.4,
+        "caseLabel": "just inside the 25 m bucket edge",
+        "expectedInRange": true
+      }
+    },
+    {
+      "id": "ff46015f-5bb8-d3d8-4548-99a0cc56e24c",
+      "handle": "elin_frost",
+      "displayName": "Elin Frost",
+      "avatarEmoji": "❄️",
+      "headline": "Cold-chain scheduler",
+      "attributes": [
+        {
+          "kind": "company",
+          "slug": "nimbus-freight",
+          "label": "Nimbus Freight",
+          "visibility": "public",
+          "weight": 1
+        },
+        {
+          "kind": "interest",
+          "slug": "sea-swimming",
+          "label": "Sea swimming",
+          "visibility": "public",
+          "weight": 1
+        }
+      ],
+      "presence": {
+        "lat": 51.538561,
+        "lng": -0.016956,
+        "accuracyM": 6,
+        "discoverable": true,
+        "ghosted": false,
+        "fixAgeSeconds": 9
+      },
+      "demo": {
+        "designedDistanceM": 25,
+        "caseLabel": "exactly 25 m -> belongs in the 25-50 m bucket",
+        "expectedInRange": true
+      }
+    },
+    {
+      "id": "ddeb2edd-2579-2bb2-10de-bc0fe696fc4e",
+      "handle": "ferris_gale",
+      "displayName": "Ferris Gale",
+      "avatarEmoji": "🌬️",
+      "headline": "Wind turbine technician",
+      "attributes": [
+        {
+          "kind": "company",
+          "slug": "orbit-energy",
+          "label": "Orbit Energy",
+          "visibility": "public",
+          "weight": 1
+        },
+        {
+          "kind": "sport",
+          "slug": "five-a-side",
+          "label": "Five-a-side football",
+          "visibility": "public",
+          "weight": 1
+        },
+        {
+          "kind": "interest",
+          "slug": "board-games",
+          "label": "Board games",
+          "visibility": "public",
+          "weight": 1
+        }
+      ],
+      "presence": {
+        "lat": 51.5389741,
+        "lng": -0.0162094,
+        "accuracyM": 11,
+        "discoverable": true,
+        "ghosted": false,
+        "fixAgeSeconds": 15
+      },
+      "demo": {
+        "designedDistanceM": 49.6,
+        "caseLabel": "just inside the 50 m bucket edge",
+        "expectedInRange": true
+      }
+    },
+    {
+      "id": "dadfdb1b-805b-fa8e-7e61-a9353fd32a58",
+      "handle": "greta_lomond",
+      "displayName": "Greta Lomond",
+      "avatarEmoji": "🏔️",
+      "headline": "Climbing coach",
+      "attributes": [
+        {
+          "kind": "company",
+          "slug": "summit-collective",
+          "label": "Summit Collective",
+          "visibility": "public",
+          "weight": 1
+        },
+        {
+          "kind": "sport",
+          "slug": "bouldering",
+          "label": "Bouldering",
+          "visibility": "public",
+          "weight": 1
+        },
+        {
+          "kind": "goal",
+          "slug": "find-training-partner",
+          "label": "Find a training partner",
+          "visibility": "public",
+          "weight": 1
+        }
+      ],
+      "presence": {
+        "lat": 51.538553,
+        "lng": -0.015881,
+        "accuracyM": 8,
+        "discoverable": true,
+        "ghosted": false,
+        "fixAgeSeconds": 12
+      },
+      "demo": {
+        "designedDistanceM": 50,
+        "caseLabel": "exactly 50 m -> still the 25-50 m bucket",
+        "expectedInRange": true
+      }
+    },
+    {
+      "id": "6975fc26-3245-c42b-2f4d-0211b364d8dc",
+      "handle": "hari_dune",
+      "displayName": "Hari Dune",
+      "avatarEmoji": "🏜️",
+      "headline": "Desert ultra hobbyist",
+      "attributes": [
+        {
+          "kind": "sport",
+          "slug": "trail-running",
+          "label": "Trail running",
+          "visibility": "public",
+          "weight": 1
+        },
+        {
+          "kind": "goal",
+          "slug": "find-running-buddy",
+          "label": "Find a running buddy",
+          "visibility": "public",
+          "weight": 1
+        },
+        {
+          "kind": "interest",
+          "slug": "street-food",
+          "label": "Street food",
+          "visibility": "public",
+          "weight": 1
+        }
+      ],
+      "presence": {
+        "lat": 51.5381523,
+        "lng": -0.016486,
+        "accuracyM": 10,
+        "discoverable": true,
+        "ghosted": false,
+        "fixAgeSeconds": 20
+      },
+      "demo": {
+        "designedDistanceM": 50.4,
+        "caseLabel": "just past 50 m -> 50-100 m bucket",
+        "expectedInRange": true
+      }
+    },
+    {
+      "id": "9d4a3cc3-2825-644b-72f5-632e91d96567",
+      "handle": "ines_carrow",
+      "displayName": "Ines Carrow",
+      "avatarEmoji": "📐",
+      "headline": "Structural engineer",
+      "attributes": [
+        {
+          "kind": "company",
+          "slug": "nimbus-freight",
+          "label": "Nimbus Freight",
+          "visibility": "public",
+          "weight": 1
+        },
+        {
+          "kind": "school",
+          "slug": "thameside-poly",
+          "label": "Thameside Polytechnic",
+          "visibility": "public",
+          "weight": 1
+        },
+        {
+          "kind": "interest",
+          "slug": "board-games",
+          "label": "Board games",
+          "visibility": "public",
+          "weight": 1
+        }
+      ],
+      "presence": {
+        "lat": 51.5394728,
+        "lng": -0.0164028,
+        "accuracyM": 6,
+        "discoverable": true,
+        "ghosted": false,
+        "fixAgeSeconds": 7
+      },
+      "demo": {
+        "designedDistanceM": 98,
+        "caseLabel": "98 m - inside, high overlap (should rank despite distance)",
+        "expectedInRange": true
+      }
+    },
+    {
+      "id": "85f14ac0-81f0-c2ca-cd83-f9ab9f13babe",
+      "handle": "jonas_wren",
+      "displayName": "Jonas Wren",
+      "avatarEmoji": "🐦",
+      "headline": "Birdwatcher and barista",
+      "attributes": [
+        {
+          "kind": "interest",
+          "slug": "birdwatching",
+          "label": "Birdwatching",
+          "visibility": "public",
+          "weight": 1
+        },
+        {
+          "kind": "interest",
+          "slug": "street-food",
+          "label": "Street food",
+          "visibility": "public",
+          "weight": 1
+        },
+        {
+          "kind": "language",
+          "slug": "portuguese",
+          "label": "Portuguese",
+          "visibility": "public",
+          "weight": 1
+        }
+      ],
+      "presence": {
+        "lat": 51.5389903,
+        "lng": -0.0153134,
+        "accuracyM": 9,
+        "discoverable": true,
+        "ghosted": false,
+        "fixAgeSeconds": 18
+      },
+      "demo": {
+        "designedDistanceM": 99,
+        "caseLabel": "99 m - inside by 1 m (threshold probe)",
+        "expectedInRange": true
+      }
+    },
+    {
+      "id": "dd062ed6-19cc-24a2-b3ec-1f8dbcac4c5d",
+      "handle": "kaia_solent",
+      "displayName": "Kaia Solent",
+      "avatarEmoji": "⛵",
+      "headline": "Dinghy instructor",
+      "attributes": [
+        {
+          "kind": "sport",
+          "slug": "sailing",
+          "label": "Sailing",
+          "visibility": "public",
+          "weight": 1
+        },
+        {
+          "kind": "sport",
+          "slug": "five-a-side",
+          "label": "Five-a-side football",
+          "visibility": "public",
+          "weight": 1
+        },
+        {
+          "kind": "interest",
+          "slug": "vinyl-records",
+          "label": "Vinyl records",
+          "visibility": "public",
+          "weight": 1
+        }
+      ],
+      "presence": {
+        "lat": 51.5381644,
+        "lng": -0.0153367,
+        "accuracyM": 7,
+        "discoverable": true,
+        "ghosted": false,
+        "fixAgeSeconds": 22
+      },
+      "demo": {
+        "designedDistanceM": 99.9,
+        "caseLabel": "99.9 m - inside by centimetres",
+        "expectedInRange": true
+      }
+    },
+    {
+      "id": "63b11242-3a1b-8d62-d80d-d7f3b7a2d883",
+      "handle": "liam_ostrich",
+      "displayName": "Liam Ostrich",
+      "avatarEmoji": "🥚",
+      "headline": "Brunch obsessive",
+      "attributes": [
+        {
+          "kind": "company",
+          "slug": "nimbus-freight",
+          "label": "Nimbus Freight",
+          "visibility": "public",
+          "weight": 1
+        },
+        {
+          "kind": "interest",
+          "slug": "street-food",
+          "label": "Street food",
+          "visibility": "public",
+          "weight": 1
+        },
+        {
+          "kind": "sport",
+          "slug": "five-a-side",
+          "label": "Five-a-side football",
+          "visibility": "public",
+          "weight": 1
+        }
+      ],
+      "presence": {
+        "lat": 51.5377074,
+        "lng": -0.0167762,
+        "accuracyM": 5,
+        "discoverable": true,
+        "ghosted": false,
+        "fixAgeSeconds": 10
+      },
+      "demo": {
+        "designedDistanceM": 100,
+        "caseLabel": "exactly 100 m - inclusive boundary, must be IN range",
+        "expectedInRange": true
+      }
+    },
+    {
+      "id": "4289ca4d-f4ed-a9a7-4ded-3168a0dea72e",
+      "handle": "mira_halcyon",
+      "displayName": "Mira Halcyon",
+      "avatarEmoji": "🕊️",
+      "headline": "Yoga teacher",
+      "attributes": [
+        {
+          "kind": "company",
+          "slug": "nimbus-freight",
+          "label": "Nimbus Freight",
+          "visibility": "public",
+          "weight": 1
+        },
+        {
+          "kind": "sport",
+          "slug": "bouldering",
+          "label": "Bouldering",
+          "visibility": "public",
+          "weight": 1
+        },
+        {
+          "kind": "interest",
+          "slug": "board-games",
+          "label": "Board games",
+          "visibility": "public",
+          "weight": 1
+        },
+        {
+          "kind": "school",
+          "slug": "thameside-poly",
+          "label": "Thameside Polytechnic",
+          "visibility": "public",
+          "weight": 1
+        }
+      ],
+      "presence": {
+        "lat": 51.538043,
+        "lng": -0.0177462,
+        "accuracyM": 5,
+        "discoverable": true,
+        "ghosted": false,
+        "fixAgeSeconds": 9
+      },
+      "demo": {
+        "designedDistanceM": 100.6,
+        "caseLabel": "just outside by 0.6 m - excluded despite the best overlap",
+        "expectedInRange": false
+      }
+    },
+    {
+      "id": "95026572-256d-faed-66cd-6455b83f80a4",
+      "handle": "nils_barrow",
+      "displayName": "Nils Barrow",
+      "avatarEmoji": "🛞",
+      "headline": "Cargo bike courier",
+      "attributes": [
+        {
+          "kind": "company",
+          "slug": "nimbus-freight",
+          "label": "Nimbus Freight",
+          "visibility": "public",
+          "weight": 1
+        },
+        {
+          "kind": "sport",
+          "slug": "cycling",
+          "label": "Cycling",
+          "visibility": "public",
+          "weight": 1
+        },
+        {
+          "kind": "goal",
+          "slug": "find-running-buddy",
+          "label": "Find a running buddy",
+          "visibility": "public",
+          "weight": 1
+        }
+      ],
+      "presence": {
+        "lat": 51.5388957,
+        "lng": -0.0179808,
+        "accuracyM": 8,
+        "discoverable": true,
+        "ghosted": false,
+        "fixAgeSeconds": 14
+      },
+      "demo": {
+        "designedDistanceM": 101,
+        "caseLabel": "101 m - out of range by 1 m (threshold probe)",
+        "expectedInRange": false
+      }
+    },
+    {
+      "id": "46a46574-6b29-e86b-e7b6-113768c45108",
+      "handle": "orla_pennyfar",
+      "displayName": "Orla Pennyfar",
+      "avatarEmoji": "🎪",
+      "headline": "Festival logistics",
+      "attributes": [
+        {
+          "kind": "company",
+          "slug": "nimbus-freight",
+          "label": "Nimbus Freight",
+          "visibility": "public",
+          "weight": 1
+        },
+        {
+          "kind": "interest",
+          "slug": "board-games",
+          "label": "Board games",
+          "visibility": "public",
+          "weight": 1
+        }
+      ],
+      "presence": {
+        "lat": 51.5395465,
+        "lng": -0.0171539,
+        "accuracyM": 12,
+        "discoverable": true,
+        "ghosted": false,
+        "fixAgeSeconds": 25
+      },
+      "demo": {
+        "designedDistanceM": 112,
+        "caseLabel": "out of range, same company (must not leak)",
+        "expectedInRange": false
+      }
+    },
+    {
+      "id": "37f48337-8e83-0cd9-4b5d-32f528014ec1",
+      "handle": "pav_esker",
+      "displayName": "Pav Esker",
+      "avatarEmoji": "📡",
+      "headline": "Indoors with a terrible fix",
+      "attributes": [
+        {
+          "kind": "company",
+          "slug": "nimbus-freight",
+          "label": "Nimbus Freight",
+          "visibility": "public",
+          "weight": 1
+        },
+        {
+          "kind": "sport",
+          "slug": "five-a-side",
+          "label": "Five-a-side football",
+          "visibility": "public",
+          "weight": 1
+        }
+      ],
+      "presence": {
+        "lat": 51.5388063,
+        "lng": -0.0161262,
+        "accuracyM": 148,
+        "discoverable": true,
+        "ghosted": false,
+        "fixAgeSeconds": 30
+      },
+      "demo": {
+        "designedDistanceM": 40,
+        "caseLabel": "accuracy 148 m - usable but only \"nearby\" confidence",
+        "expectedInRange": true
+      }
+    },
+    {
+      "id": "8f592a36-465c-dd67-2203-d029576393f3",
+      "handle": "quinn_stellar",
+      "displayName": "Quinn Stellar",
+      "avatarEmoji": "🛰️",
+      "headline": "Basement office, no sky view",
+      "attributes": [
+        {
+          "kind": "company",
+          "slug": "nimbus-freight",
+          "label": "Nimbus Freight",
+          "visibility": "public",
+          "weight": 1
+        },
+        {
+          "kind": "interest",
+          "slug": "board-games",
+          "label": "Board games",
+          "visibility": "public",
+          "weight": 1
+        },
+        {
+          "kind": "sport",
+          "slug": "bouldering",
+          "label": "Bouldering",
+          "visibility": "public",
+          "weight": 1
+        }
+      ],
+      "presence": {
+        "lat": 51.5387349,
+        "lng": -0.0169757,
+        "accuracyM": 220,
+        "discoverable": true,
+        "ghosted": false,
+        "fixAgeSeconds": 35
+      },
+      "demo": {
+        "designedDistanceM": 30,
+        "caseLabel": "accuracy 220 m - rejected as unusable (> 150 m cap)",
+        "expectedInRange": false
+      }
+    },
+    {
+      "id": "d5dbb606-bb16-011b-2a50-e31cc7508103",
+      "handle": "rune_tallow",
+      "displayName": "Rune Tallow",
+      "avatarEmoji": "🕯️",
+      "headline": "Candlemaker",
+      "attributes": [
+        {
+          "kind": "interest",
+          "slug": "crafts",
+          "label": "Crafts",
+          "visibility": "public",
+          "weight": 1
+        },
+        {
+          "kind": "interest",
+          "slug": "street-food",
+          "label": "Street food",
+          "visibility": "public",
+          "weight": 1
+        }
+      ],
+      "presence": {
+        "lat": 51.5393644,
+        "lng": -0.0162707,
+        "accuracyM": 40,
+        "discoverable": true,
+        "ghosted": false,
+        "fixAgeSeconds": 45
+      },
+      "demo": {
+        "designedDistanceM": 88,
+        "caseLabel": "inside but wide error bars -> \"nearby\", not \"certain\"",
+        "expectedInRange": true
+      }
+    },
+    {
+      "id": "eedb7b52-5447-462e-d250-d7022bd18d16",
+      "handle": "sena_orrery",
+      "displayName": "Sena Orrery",
+      "avatarEmoji": "🔭",
+      "headline": "Planetarium guide",
+      "attributes": [
+        {
+          "kind": "company",
+          "slug": "nimbus-freight",
+          "label": "Nimbus Freight",
+          "visibility": "public",
+          "weight": 1
+        },
+        {
+          "kind": "interest",
+          "slug": "astronomy",
+          "label": "Astronomy",
+          "visibility": "public",
+          "weight": 1
+        },
+        {
+          "kind": "interest",
+          "slug": "board-games",
+          "label": "Board games",
+          "visibility": "public",
+          "weight": 1
+        }
+      ],
+      "presence": {
+        "lat": 51.5382495,
+        "lng": -0.0169253,
+        "accuracyM": 10,
+        "discoverable": true,
+        "ghosted": false,
+        "fixAgeSeconds": 61
+      },
+      "demo": {
+        "designedDistanceM": 45,
+        "caseLabel": "fix 61 s old - freshness decay starts",
+        "expectedInRange": true
+      }
+    },
+    {
+      "id": "3249fdda-849c-a9ae-a83a-44a9f548dff3",
+      "handle": "tomas_vane",
+      "displayName": "Tomas Vane",
+      "avatarEmoji": "🌀",
+      "headline": "Weather nerd",
+      "attributes": [
+        {
+          "kind": "company",
+          "slug": "nimbus-freight",
+          "label": "Nimbus Freight",
+          "visibility": "public",
+          "weight": 1
+        },
+        {
+          "kind": "sport",
+          "slug": "five-a-side",
+          "label": "Five-a-side football",
+          "visibility": "public",
+          "weight": 1
+        },
+        {
+          "kind": "school",
+          "slug": "thameside-poly",
+          "label": "Thameside Polytechnic",
+          "visibility": "public",
+          "weight": 1
+        }
+      ],
+      "presence": {
+        "lat": 51.5383302,
+        "lng": -0.0173513,
+        "accuracyM": 9,
+        "discoverable": true,
+        "ghosted": false,
+        "fixAgeSeconds": 299
+      },
+      "demo": {
+        "designedDistanceM": 60,
+        "caseLabel": "fix 299 s old - just inside the 5 min staleness cutoff",
+        "expectedInRange": true
+      }
+    },
+    {
+      "id": "d5a3d875-8e85-48bb-aeac-c0db125a3ef9",
+      "handle": "ula_brightwater",
+      "displayName": "Ula Brightwater",
+      "avatarEmoji": "💧",
+      "headline": "Left her phone on a bench",
+      "attributes": [
+        {
+          "kind": "company",
+          "slug": "nimbus-freight",
+          "label": "Nimbus Freight",
+          "visibility": "public",
+          "weight": 1
+        },
+        {
+          "kind": "sport",
+          "slug": "bouldering",
+          "label": "Bouldering",
+          "visibility": "public",
+          "weight": 1
+        },
+        {
+          "kind": "interest",
+          "slug": "street-food",
+          "label": "Street food",
+          "visibility": "public",
+          "weight": 1
+        }
+      ],
+      "presence": {
+        "lat": 51.5383977,
+        "lng": -0.0162123,
+        "accuracyM": 8,
+        "discoverable": true,
+        "ghosted": false,
+        "fixAgeSeconds": 420
+      },
+      "demo": {
+        "designedDistanceM": 35,
+        "caseLabel": "fix 7 min old - dropped as stale",
+        "expectedInRange": false
+      }
+    },
+    {
+      "id": "b4be0af8-00e3-7441-6a0d-f9a908cabe7f",
+      "handle": "vic_hollows",
+      "displayName": "Vic Hollows",
+      "avatarEmoji": "🚪",
+      "headline": "Discoverability switched off",
+      "attributes": [
+        {
+          "kind": "company",
+          "slug": "nimbus-freight",
+          "label": "Nimbus Freight",
+          "visibility": "public",
+          "weight": 1
+        },
+        {
+          "kind": "sport",
+          "slug": "five-a-side",
+          "label": "Five-a-side football",
+          "visibility": "public",
+          "weight": 1
+        },
+        {
+          "kind": "interest",
+          "slug": "board-games",
+          "label": "Board games",
+          "visibility": "public",
+          "weight": 1
+        }
+      ],
+      "presence": {
+        "lat": 51.5386187,
+        "lng": -0.0164291,
+        "accuracyM": 6,
+        "discoverable": false,
+        "ghosted": false,
+        "fixAgeSeconds": 5
+      },
+      "demo": {
+        "designedDistanceM": 12,
+        "caseLabel": "opted out - never appears, however close",
+        "expectedInRange": false
+      }
+    },
+    {
+      "id": "b60b3052-743e-4999-1024-447dad270720",
+      "handle": "wren_castellan",
+      "displayName": "Wren Castellan",
+      "avatarEmoji": "👻",
+      "headline": "In ghost mode for an hour",
+      "attributes": [
+        {
+          "kind": "company",
+          "slug": "nimbus-freight",
+          "label": "Nimbus Freight",
+          "visibility": "public",
+          "weight": 1
+        },
+        {
+          "kind": "interest",
+          "slug": "vinyl-records",
+          "label": "Vinyl records",
+          "visibility": "public",
+          "weight": 1
+        }
+      ],
+      "presence": {
+        "lat": 51.5387594,
+        "lng": -0.0166452,
+        "accuracyM": 7,
+        "discoverable": true,
+        "ghosted": true,
+        "fixAgeSeconds": 6
+      },
+      "demo": {
+        "designedDistanceM": 18,
+        "caseLabel": "ghost mode - temporarily invisible",
+        "expectedInRange": false
+      }
+    },
+    {
+      "id": "c2adcb96-8d7e-4754-4fff-6ce2edffcb09",
+      "handle": "xan_petrel",
+      "displayName": "Xan Petrel",
+      "avatarEmoji": "🚫",
+      "headline": "Blocked the viewer",
+      "attributes": [
+        {
+          "kind": "company",
+          "slug": "nimbus-freight",
+          "label": "Nimbus Freight",
+          "visibility": "public",
+          "weight": 1
+        },
+        {
+          "kind": "sport",
+          "slug": "five-a-side",
+          "label": "Five-a-side football",
+          "visibility": "public",
+          "weight": 1
+        }
+      ],
+      "presence": {
+        "lat": 51.5386582,
+        "lng": -0.0165096,
+        "accuracyM": 5,
+        "discoverable": true,
+        "ghosted": false,
+        "fixAgeSeconds": 4
+      },
+      "demo": {
+        "designedDistanceM": 9,
+        "caseLabel": "block in place - filtered in both directions",
+        "expectedInRange": false
+      }
+    },
+    {
+      "id": "e84427b0-b0c0-d501-491d-f97bfb3ec13a",
+      "handle": "yara_quill",
+      "displayName": "Yara Quill",
+      "avatarEmoji": "🖋️",
+      "headline": "Private about her employer",
+      "attributes": [
+        {
+          "kind": "company",
+          "slug": "nimbus-freight",
+          "label": "Nimbus Freight",
+          "visibility": "private",
+          "weight": 1
+        },
+        {
+          "kind": "interest",
+          "slug": "board-games",
+          "label": "Board games",
+          "visibility": "public",
+          "weight": 1
+        },
+        {
+          "kind": "school",
+          "slug": "thameside-poly",
+          "label": "Thameside Polytechnic",
+          "visibility": "matches",
+          "weight": 1
+        }
+      ],
+      "presence": {
+        "lat": 51.5388668,
+        "lng": -0.0164267,
+        "accuracyM": 8,
+        "discoverable": true,
+        "ghosted": false,
+        "fixAgeSeconds": 12
+      },
+      "demo": {
+        "designedDistanceM": 32,
+        "caseLabel": "private/matches visibility - scores but is not named",
+        "expectedInRange": true
+      }
+    },
+    {
+      "id": "93eb570f-a68d-90d7-eb13-510e55c23d04",
+      "handle": "zeb_marlow",
+      "displayName": "Zeb Marlow",
+      "avatarEmoji": "🎲",
+      "headline": "Runs a dice cafe",
+      "attributes": [
+        {
+          "kind": "interest",
+          "slug": "board-games",
+          "label": "Board games",
+          "visibility": "public",
+          "weight": 1
+        },
+        {
+          "kind": "interest",
+          "slug": "street-food",
+          "label": "Street food",
+          "visibility": "public",
+          "weight": 1
+        },
+        {
+          "kind": "language",
+          "slug": "portuguese",
+          "label": "Portuguese",
+          "visibility": "matches",
+          "weight": 1
+        }
+      ],
+      "presence": {
+        "lat": 51.5388115,
+        "lng": -0.0170856,
+        "accuracyM": 9,
+        "discoverable": true,
+        "ghosted": false,
+        "fixAgeSeconds": 16
+      },
+      "demo": {
+        "designedDistanceM": 41,
+        "caseLabel": "mixed visibility, no company overlap",
+        "expectedInRange": true
+      }
+    },
+    {
+      "id": "2810428f-c7fd-19e3-bf2d-c757bda3b9a5",
+      "handle": "aster_moraine",
+      "displayName": "Aster Moraine",
+      "avatarEmoji": "🧊",
+      "headline": "Glaciologist, shares nothing",
+      "attributes": [
+        {
+          "kind": "company",
+          "slug": "polar-survey",
+          "label": "Polar Survey",
+          "visibility": "public",
+          "weight": 1
+        },
+        {
+          "kind": "sport",
+          "slug": "curling",
+          "label": "Curling",
+          "visibility": "public",
+          "weight": 1
+        },
+        {
+          "kind": "interest",
+          "slug": "ice-cores",
+          "label": "Ice cores",
+          "visibility": "public",
+          "weight": 1
+        }
+      ],
+      "presence": {
+        "lat": 51.5385766,
+        "lng": -0.0163864,
+        "accuracyM": 6,
+        "discoverable": true,
+        "ghosted": false,
+        "fixAgeSeconds": 8
+      },
+      "demo": {
+        "designedDistanceM": 15,
+        "caseLabel": "very close, zero overlap - suppressed by the score floor",
+        "expectedInRange": true
+      }
+    },
+    {
+      "id": "15479582-004f-0a84-106e-295cc5c763da",
+      "handle": "basil_quorn",
+      "displayName": "Basil Quorn",
+      "avatarEmoji": "🥬",
+      "headline": "Allotment evangelist",
+      "attributes": [
+        {
+          "kind": "company",
+          "slug": "green-verge",
+          "label": "Green Verge",
+          "visibility": "public",
+          "weight": 1
+        },
+        {
+          "kind": "interest",
+          "slug": "gardening",
+          "label": "Gardening",
+          "visibility": "public",
+          "weight": 1
+        },
+        {
+          "kind": "language",
+          "slug": "welsh",
+          "label": "Welsh",
+          "visibility": "public",
+          "weight": 1
+        }
+      ],
+      "presence": {
+        "lat": 51.5383609,
+        "lng": -0.0166678,
+        "accuracyM": 7,
+        "discoverable": true,
+        "ghosted": false,
+        "fixAgeSeconds": 13
+      },
+      "demo": {
+        "designedDistanceM": 27,
+        "caseLabel": "no overlap at all",
+        "expectedInRange": false
+      }
+    },
+    {
+      "id": "f8630544-a421-7571-8c5a-cf5f89fb6df4",
+      "handle": "clover_ashdown",
+      "displayName": "Clover Ashdown",
+      "avatarEmoji": "🍀",
+      "headline": "Only shares one common interest",
+      "attributes": [
+        {
+          "kind": "company",
+          "slug": "lantern-legal",
+          "label": "Lantern Legal",
+          "visibility": "public",
+          "weight": 1
+        },
+        {
+          "kind": "interest",
+          "slug": "street-food",
+          "label": "Street food",
+          "visibility": "public",
+          "weight": 1
+        }
+      ],
+      "presence": {
+        "lat": 51.5392085,
+        "lng": -0.0162439,
+        "accuracyM": 10,
+        "discoverable": true,
+        "ghosted": false,
+        "fixAgeSeconds": 24
+      },
+      "demo": {
+        "designedDistanceM": 72.01,
+        "caseLabel": "single common interest at distance - borderline score",
+        "expectedInRange": true
+      }
+    },
+    {
+      "id": "ca493ce7-172f-d72c-f0f0-f6fe728c203d",
+      "handle": "fen_arbour",
+      "displayName": "Fen Arbour",
+      "avatarEmoji": "🌳",
+      "headline": "Urban forester",
+      "attributes": [
+        {
+          "kind": "company",
+          "slug": "green-verge",
+          "label": "Green Verge",
+          "visibility": "public",
+          "weight": 1
+        },
+        {
+          "kind": "sport",
+          "slug": "trail-running",
+          "label": "Trail running",
+          "visibility": "public",
+          "weight": 1
+        },
+        {
+          "kind": "goal",
+          "slug": "find-running-buddy",
+          "label": "Find a running buddy",
+          "visibility": "public",
+          "weight": 1
+        },
+        {
+          "kind": "school",
+          "slug": "thameside-poly",
+          "label": "Thameside Polytechnic",
+          "visibility": "public",
+          "weight": 1
+        }
+      ],
+      "presence": {
+        "lat": 51.5386494,
+        "lng": -0.0175074,
+        "accuracyM": 8,
+        "discoverable": true,
+        "ghosted": false,
+        "fixAgeSeconds": 19
+      },
+      "demo": {
+        "designedDistanceM": 63,
+        "caseLabel": "in range, shared school + goal",
+        "expectedInRange": true
+      }
+    },
+    {
+      "id": "c3f705b4-732d-bb33-29eb-dcdf568ac964",
+      "handle": "gio_saffron",
+      "displayName": "Gio Saffron",
+      "avatarEmoji": "🍲",
+      "headline": "Street food stall owner",
+      "attributes": [
+        {
+          "kind": "company",
+          "slug": "saffron-street",
+          "label": "Saffron Street",
+          "visibility": "public",
+          "weight": 1
+        },
+        {
+          "kind": "interest",
+          "slug": "street-food",
+          "label": "Street food",
+          "visibility": "public",
+          "weight": 1
+        },
+        {
+          "kind": "language",
+          "slug": "portuguese",
+          "label": "Portuguese",
+          "visibility": "public",
+          "weight": 1
+        },
+        {
+          "kind": "interest",
+          "slug": "board-games",
+          "label": "Board games",
+          "visibility": "public",
+          "weight": 1
+        }
+      ],
+      "presence": {
+        "lat": 51.5383888,
+        "lng": -0.0155549,
+        "accuracyM": 12,
+        "discoverable": true,
+        "ghosted": false,
+        "fixAgeSeconds": 27
+      },
+      "demo": {
+        "designedDistanceM": 76,
+        "caseLabel": "in range, three shared attributes at distance",
+        "expectedInRange": true
+      }
+    },
+    {
+      "id": "534c9efc-16e4-a860-a93d-ea143611d07f",
+      "handle": "hollis_penrose",
+      "displayName": "Hollis Penrose",
+      "avatarEmoji": "🧩",
+      "headline": "Puzzle designer",
+      "attributes": [
+        {
+          "kind": "company",
+          "slug": "penrose-puzzles",
+          "label": "Penrose Puzzles",
+          "visibility": "public",
+          "weight": 1
+        },
+        {
+          "kind": "interest",
+          "slug": "board-games",
+          "label": "Board games",
+          "visibility": "public",
+          "weight": 1
+        },
+        {
+          "kind": "school",
+          "slug": "thameside-poly",
+          "label": "Thameside Polytechnic",
+          "visibility": "public",
+          "weight": 1
+        }
+      ],
+      "presence": {
+        "lat": 51.5378857,
+        "lng": -0.0169954,
+        "accuracyM": 10,
+        "discoverable": true,
+        "ghosted": false,
+        "fixAgeSeconds": 23
+      },
+      "demo": {
+        "designedDistanceM": 84,
+        "caseLabel": "in range, board games + school",
+        "expectedInRange": true
+      }
+    },
+    {
+      "id": "cbc18f44-82af-7619-59f9-b3d87fa99e1a",
+      "handle": "ivo_marchetti",
+      "displayName": "Ivo Marchetti",
+      "avatarEmoji": "☕",
+      "headline": "Roastery apprentice",
+      "attributes": [
+        {
+          "kind": "company",
+          "slug": "nimbus-freight",
+          "label": "Nimbus Freight",
+          "visibility": "public",
+          "weight": 1
+        },
+        {
+          "kind": "interest",
+          "slug": "coffee",
+          "label": "Speciality coffee",
+          "visibility": "public",
+          "weight": 1
+        },
+        {
+          "kind": "sport",
+          "slug": "five-a-side",
+          "label": "Five-a-side football",
+          "visibility": "public",
+          "weight": 1
+        }
+      ],
+      "presence": {
+        "lat": 51.5390685,
+        "lng": -0.017232,
+        "accuracyM": 9,
+        "discoverable": true,
+        "ghosted": false,
+        "fixAgeSeconds": 26
+      },
+      "demo": {
+        "designedDistanceM": 68,
+        "caseLabel": "in range, colleague and footballer",
+        "expectedInRange": true
+      }
+    },
+    {
+      "id": "92342111-8110-e2a3-81b0-f430aa13557c",
+      "handle": "juno_pike",
+      "displayName": "Juno Pike",
+      "avatarEmoji": "🎣",
+      "headline": "River guide",
+      "attributes": [
+        {
+          "kind": "company",
+          "slug": "riverbend-tours",
+          "label": "Riverbend Tours",
+          "visibility": "public",
+          "weight": 1
+        },
+        {
+          "kind": "sport",
+          "slug": "kayaking",
+          "label": "Kayaking",
+          "visibility": "public",
+          "weight": 1
+        },
+        {
+          "kind": "interest",
+          "slug": "birdwatching",
+          "label": "Birdwatching",
+          "visibility": "public",
+          "weight": 1
+        }
+      ],
+      "presence": {
+        "lat": 51.5383201,
+        "lng": -0.0178364,
+        "accuracyM": 13,
+        "discoverable": true,
+        "ghosted": false,
+        "fixAgeSeconds": 31
+      },
+      "demo": {
+        "designedDistanceM": 91,
+        "caseLabel": "in range, no overlap - below the floor",
+        "expectedInRange": true
+      }
+    },
+    {
+      "id": "bb165441-3d49-93d8-2d07-93d474db8e8f",
+      "handle": "kit_ferrous",
+      "displayName": "Kit Ferrous",
+      "avatarEmoji": "🔧",
+      "headline": "Bike mechanic",
+      "attributes": [
+        {
+          "kind": "company",
+          "slug": "ferrous-cycles",
+          "label": "Ferrous Cycles",
+          "visibility": "public",
+          "weight": 1
+        },
+        {
+          "kind": "sport",
+          "slug": "cycling",
+          "label": "Cycling",
+          "visibility": "public",
+          "weight": 1
+        },
+        {
+          "kind": "sport",
+          "slug": "bouldering",
+          "label": "Bouldering",
+          "visibility": "public",
+          "weight": 1
+        },
+        {
+          "kind": "goal",
+          "slug": "find-training-partner",
+          "label": "Find a training partner",
+          "visibility": "public",
+          "weight": 1
+        }
+      ],
+      "presence": {
+        "lat": 51.5390134,
+        "lng": -0.0164587,
+        "accuracyM": 7,
+        "discoverable": true,
+        "ghosted": false,
+        "fixAgeSeconds": 14
+      },
+      "demo": {
+        "designedDistanceM": 47,
+        "caseLabel": "in range, shared sport only",
+        "expectedInRange": true
+      }
+    },
+    {
+      "id": "cf182a87-002a-fc25-9a09-57c724880f42",
+      "handle": "lore_ashby",
+      "displayName": "Lore Ashby",
+      "avatarEmoji": "📚",
+      "headline": "Archivist",
+      "attributes": [
+        {
+          "kind": "company",
+          "slug": "thameside-archive",
+          "label": "Thameside Archive",
+          "visibility": "public",
+          "weight": 1
+        },
+        {
+          "kind": "school",
+          "slug": "thameside-poly",
+          "label": "Thameside Polytechnic",
+          "visibility": "public",
+          "weight": 1
+        },
+        {
+          "kind": "interest",
+          "slug": "vinyl-records",
+          "label": "Vinyl records",
+          "visibility": "public",
+          "weight": 1
+        },
+        {
+          "kind": "language",
+          "slug": "portuguese",
+          "label": "Portuguese",
+          "visibility": "public",
+          "weight": 1
+        }
+      ],
+      "presence": {
+        "lat": 51.5386166,
+        "lng": -0.0158341,
+        "accuracyM": 8,
+        "discoverable": true,
+        "ghosted": false,
+        "fixAgeSeconds": 18
+      },
+      "demo": {
+        "designedDistanceM": 53,
+        "caseLabel": "in range, school + interest + language",
+        "expectedInRange": true
+      }
+    },
+    {
+      "id": "5ae9e188-ea5e-5c1d-e824-e0759f342a93",
+      "handle": "mose_kilburn",
+      "displayName": "Mose Kilburn",
+      "avatarEmoji": "🥁",
+      "headline": "Session drummer",
+      "attributes": [
+        {
+          "kind": "company",
+          "slug": "harbourline-audio",
+          "label": "Harbourline Audio",
+          "visibility": "public",
+          "weight": 1
+        },
+        {
+          "kind": "interest",
+          "slug": "vinyl-records",
+          "label": "Vinyl records",
+          "visibility": "public",
+          "weight": 1
+        },
+        {
+          "kind": "sport",
+          "slug": "five-a-side",
+          "label": "Five-a-side football",
+          "visibility": "public",
+          "weight": 1
+        }
+      ],
+      "presence": {
+        "lat": 51.5383449,
+        "lng": -0.0165128,
+        "accuracyM": 6,
+        "discoverable": true,
+        "ghosted": false,
+        "fixAgeSeconds": 10
+      },
+      "demo": {
+        "designedDistanceM": 29,
+        "caseLabel": "in range, two shared attributes close by",
+        "expectedInRange": true
+      }
+    },
+    {
+      "id": "870fd555-4dfc-1d4b-9f9f-82d1e536960d",
+      "handle": "nadia_orpheus",
+      "displayName": "Nadia Orpheus",
+      "avatarEmoji": "🎭",
+      "headline": "Stage manager",
+      "attributes": [
+        {
+          "kind": "company",
+          "slug": "orpheus-stage",
+          "label": "Orpheus Stage",
+          "visibility": "public",
+          "weight": 1
+        },
+        {
+          "kind": "interest",
+          "slug": "theatre",
+          "label": "Theatre",
+          "visibility": "public",
+          "weight": 1
+        },
+        {
+          "kind": "interest",
+          "slug": "board-games",
+          "label": "Board games",
+          "visibility": "public",
+          "weight": 1
+        },
+        {
+          "kind": "language",
+          "slug": "portuguese",
+          "label": "Portuguese",
+          "visibility": "public",
+          "weight": 1
+        }
+      ],
+      "presence": {
+        "lat": 51.5391442,
+        "lng": -0.0158658,
+        "accuracyM": 10,
+        "discoverable": true,
+        "ghosted": false,
+        "fixAgeSeconds": 29
+      },
+      "demo": {
+        "designedDistanceM": 78.99,
+        "caseLabel": "in range, interests + language",
+        "expectedInRange": true
+      }
+    },
+    {
+      "id": "6af87534-ab36-5681-557a-07719ebfa621",
+      "handle": "ozzy_flint",
+      "displayName": "Ozzy Flint",
+      "avatarEmoji": "🔥",
+      "headline": "Blacksmith",
+      "attributes": [
+        {
+          "kind": "company",
+          "slug": "flint-forge",
+          "label": "Flint Forge",
+          "visibility": "public",
+          "weight": 1
+        },
+        {
+          "kind": "sport",
+          "slug": "bouldering",
+          "label": "Bouldering",
+          "visibility": "public",
+          "weight": 1
+        },
+        {
+          "kind": "interest",
+          "slug": "crafts",
+          "label": "Crafts",
+          "visibility": "public",
+          "weight": 1
+        }
+      ],
+      "presence": {
+        "lat": 51.5380795,
+        "lng": -0.015529,
+        "accuracyM": 12,
+        "discoverable": true,
+        "ghosted": false,
+        "fixAgeSeconds": 33
+      },
+      "demo": {
+        "designedDistanceM": 94,
+        "caseLabel": "in range at the far edge, one shared sport",
+        "expectedInRange": true
+      }
+    },
+    {
+      "id": "54865797-0493-284d-0f83-95baffba1751",
+      "handle": "peri_solstice",
+      "displayName": "Peri Solstice",
+      "avatarEmoji": "🌞",
+      "headline": "Solar installer",
+      "attributes": [
+        {
+          "kind": "company",
+          "slug": "orbit-energy",
+          "label": "Orbit Energy",
+          "visibility": "public",
+          "weight": 1
+        },
+        {
+          "kind": "sport",
+          "slug": "five-a-side",
+          "label": "Five-a-side football",
+          "visibility": "public",
+          "weight": 1
+        },
+        {
+          "kind": "goal",
+          "slug": "find-running-buddy",
+          "label": "Find a running buddy",
+          "visibility": "public",
+          "weight": 1
+        }
+      ],
+      "presence": {
+        "lat": 51.5381453,
+        "lng": -0.0172134,
+        "accuracyM": 9,
+        "discoverable": true,
+        "ghosted": false,
+        "fixAgeSeconds": 20
+      },
+      "demo": {
+        "designedDistanceM": 66,
+        "caseLabel": "in range, sport + goal",
+        "expectedInRange": true
+      }
+    },
+    {
+      "id": "d8f1a5fe-52f3-7418-df51-7ea4a7d14ac6",
+      "handle": "rafi_underwood",
+      "displayName": "Rafi Underwood",
+      "avatarEmoji": "🌲",
+      "headline": "Carpenter",
+      "attributes": [
+        {
+          "kind": "company",
+          "slug": "quayside-build",
+          "label": "Quayside Build",
+          "visibility": "public",
+          "weight": 1
+        },
+        {
+          "kind": "interest",
+          "slug": "crafts",
+          "label": "Crafts",
+          "visibility": "public",
+          "weight": 1
+        },
+        {
+          "kind": "school",
+          "slug": "thameside-poly",
+          "label": "Thameside Polytechnic",
+          "visibility": "public",
+          "weight": 1
+        }
+      ],
+      "presence": {
+        "lat": 51.5386172,
+        "lng": -0.0169169,
+        "accuracyM": 7,
+        "discoverable": true,
+        "ghosted": false,
+        "fixAgeSeconds": 11
+      },
+      "demo": {
+        "designedDistanceM": 22,
+        "caseLabel": "in range, shared school nearby",
+        "expectedInRange": true
+      }
+    },
+    {
+      "id": "3ca5dee5-1155-effd-36b0-f4910b7d9270",
+      "handle": "suri_calder",
+      "displayName": "Suri Calder",
+      "avatarEmoji": "🚉",
+      "headline": "On the platform, one street over",
+      "attributes": [
+        {
+          "kind": "company",
+          "slug": "nimbus-freight",
+          "label": "Nimbus Freight",
+          "visibility": "public",
+          "weight": 1
+        },
+        {
+          "kind": "sport",
+          "slug": "five-a-side",
+          "label": "Five-a-side football",
+          "visibility": "public",
+          "weight": 1
+        },
+        {
+          "kind": "interest",
+          "slug": "board-games",
+          "label": "Board games",
+          "visibility": "public",
+          "weight": 1
+        }
+      ],
+      "presence": {
+        "lat": 51.5395285,
+        "lng": -0.014468,
+        "accuracyM": 9,
+        "discoverable": true,
+        "ghosted": false,
+        "fixAgeSeconds": 15
+      },
+      "demo": {
+        "designedDistanceM": 180,
+        "caseLabel": "out of range at 180 m",
+        "expectedInRange": false
+      }
+    },
+    {
+      "id": "8595e9c0-fd2d-fb41-8678-aced2c9f513e",
+      "handle": "thane_gable",
+      "displayName": "Thane Gable",
+      "avatarEmoji": "🏗️",
+      "headline": "Crane operator",
+      "attributes": [
+        {
+          "kind": "company",
+          "slug": "quayside-build",
+          "label": "Quayside Build",
+          "visibility": "public",
+          "weight": 1
+        },
+        {
+          "kind": "sport",
+          "slug": "bouldering",
+          "label": "Bouldering",
+          "visibility": "public",
+          "weight": 1
+        }
+      ],
+      "presence": {
+        "lat": 51.5368088,
+        "lng": -0.0141837,
+        "accuracyM": 11,
+        "discoverable": true,
+        "ghosted": false,
+        "fixAgeSeconds": 22
+      },
+      "demo": {
+        "designedDistanceM": 260,
+        "caseLabel": "out of range at 260 m",
+        "expectedInRange": false
+      }
+    },
+    {
+      "id": "8195cfa4-4639-578c-2ebb-48fce53e9f13",
+      "handle": "uma_veldt",
+      "displayName": "Uma Veldt",
+      "avatarEmoji": "🦓",
+      "headline": "Zoologist",
+      "attributes": [
+        {
+          "kind": "company",
+          "slug": "veldt-research",
+          "label": "Veldt Research",
+          "visibility": "public",
+          "weight": 1
+        },
+        {
+          "kind": "interest",
+          "slug": "wildlife",
+          "label": "Wildlife",
+          "visibility": "public",
+          "weight": 1
+        },
+        {
+          "kind": "school",
+          "slug": "thameside-poly",
+          "label": "Thameside Polytechnic",
+          "visibility": "public",
+          "weight": 1
+        }
+      ],
+      "presence": {
+        "lat": 51.541028,
+        "lng": -0.0233621,
+        "accuracyM": 14,
+        "discoverable": true,
+        "ghosted": false,
+        "fixAgeSeconds": 40
+      },
+      "demo": {
+        "designedDistanceM": 540,
+        "caseLabel": "out of range at 540 m",
+        "expectedInRange": false
+      }
+    },
+    {
+      "id": "b9eba653-a744-661b-877f-e5655951a4e7",
+      "handle": "vero_lindqvist",
+      "displayName": "Vero Lindqvist",
+      "avatarEmoji": "🚋",
+      "headline": "Tram driver",
+      "attributes": [
+        {
+          "kind": "company",
+          "slug": "nimbus-freight",
+          "label": "Nimbus Freight",
+          "visibility": "public",
+          "weight": 1
+        },
+        {
+          "kind": "interest",
+          "slug": "vinyl-records",
+          "label": "Vinyl records",
+          "visibility": "public",
+          "weight": 1
+        },
+        {
+          "kind": "language",
+          "slug": "portuguese",
+          "label": "Portuguese",
+          "visibility": "public",
+          "weight": 1
+        }
+      ],
+      "presence": {
+        "lat": 51.5487409,
+        "lng": -0.0106644,
+        "accuracyM": 16,
+        "discoverable": true,
+        "ghosted": false,
+        "fixAgeSeconds": 50
+      },
+      "demo": {
+        "designedDistanceM": 1200,
+        "caseLabel": "out of range at 1.2 km, strong overlap",
+        "expectedInRange": false
+      }
+    },
+    {
+      "id": "860caae4-6a53-caf6-22cf-e1292303e448",
+      "handle": "wilder_krane",
+      "displayName": "Wilder Krane",
+      "avatarEmoji": "✈️",
+      "headline": "Cabin crew, different city",
+      "attributes": [
+        {
+          "kind": "company",
+          "slug": "nimbus-freight",
+          "label": "Nimbus Freight",
+          "visibility": "public",
+          "weight": 1
+        },
+        {
+          "kind": "sport",
+          "slug": "five-a-side",
+          "label": "Five-a-side football",
+          "visibility": "public",
+          "weight": 1
+        },
+        {
+          "kind": "school",
+          "slug": "thameside-poly",
+          "label": "Thameside Polytechnic",
+          "visibility": "public",
+          "weight": 1
+        }
+      ],
+      "presence": {
+        "lat": 51.5733275,
+        "lng": 0.1930525,
+        "accuracyM": 20,
+        "discoverable": true,
+        "ghosted": false,
+        "fixAgeSeconds": 60
+      },
+      "demo": {
+        "designedDistanceM": 15000,
+        "caseLabel": "out of range at 15 km",
+        "expectedInRange": false
+      }
+    },
+    {
+      "id": "77f27a7a-1ee3-d38f-d733-e89d81366d53",
+      "handle": "xiu_meridian",
+      "displayName": "Xiu Meridian",
+      "avatarEmoji": "🗺️",
+      "headline": "Antimeridian west side",
+      "attributes": [
+        {
+          "kind": "company",
+          "slug": "meridian-charts",
+          "label": "Meridian Charts",
+          "visibility": "public",
+          "weight": 1
+        },
+        {
+          "kind": "interest",
+          "slug": "board-games",
+          "label": "Board games",
+          "visibility": "public",
+          "weight": 1
+        }
+      ],
+      "presence": {
+        "lat": -16.5,
+        "lng": 179.9999,
+        "accuracyM": 8,
+        "discoverable": true,
+        "ghosted": false,
+        "fixAgeSeconds": 12
+      },
+      "demo": {
+        "designedDistanceM": 16118994.23,
+        "caseLabel": "antimeridian pair A (lng 179.9999) - fixed coordinates",
+        "expectedInRange": false
+      }
+    },
+    {
+      "id": "6fadbc6a-8885-4a92-3e82-1389835ec4b4",
+      "handle": "yusuf_dateline",
+      "displayName": "Yusuf Dateline",
+      "avatarEmoji": "🧮",
+      "headline": "Antimeridian east side",
+      "attributes": [
+        {
+          "kind": "company",
+          "slug": "meridian-charts",
+          "label": "Meridian Charts",
+          "visibility": "public",
+          "weight": 1
+        },
+        {
+          "kind": "interest",
+          "slug": "board-games",
+          "label": "Board games",
+          "visibility": "public",
+          "weight": 1
+        }
+      ],
+      "presence": {
+        "lat": -16.5,
+        "lng": -179.9999,
+        "accuracyM": 8,
+        "discoverable": true,
+        "ghosted": false,
+        "fixAgeSeconds": 12
+      },
+      "demo": {
+        "designedDistanceM": 16118994.22,
+        "caseLabel": "antimeridian pair B (lng -179.9999) - ~22 m from pair A",
+        "expectedInRange": false
+      }
+    },
+    {
+      "id": "e06fc06d-0435-0240-6828-83547ee2e6d9",
+      "handle": "zola_polaris",
+      "displayName": "Zola Polaris",
+      "avatarEmoji": "🧊",
+      "headline": "High-latitude research post",
+      "attributes": [
+        {
+          "kind": "company",
+          "slug": "polar-survey",
+          "label": "Polar Survey",
+          "visibility": "public",
+          "weight": 1
+        },
+        {
+          "kind": "sport",
+          "slug": "bouldering",
+          "label": "Bouldering",
+          "visibility": "public",
+          "weight": 1
+        }
+      ],
+      "presence": {
+        "lat": 89.9,
+        "lng": 42,
+        "accuracyM": 25,
+        "discoverable": true,
+        "ghosted": false,
+        "fixAgeSeconds": 90
+      },
+      "demo": {
+        "designedDistanceM": 4268462.69,
+        "caseLabel": "lat 89.9 - polar convergence edge case, fixed coordinates",
+        "expectedInRange": false
+      }
+    }
+  ],
+  "blocks": [
+    {
+      "blockerId": "c2adcb96-8d7e-4754-4fff-6ce2edffcb09",
+      "blockedId": "20d1db65-b2c0-fb3c-f1bc-3eaaed00d0ae",
+      "note": "target blocked the viewer - viewer must not see them"
+    },
+    {
+      "blockerId": "20d1db65-b2c0-fb3c-f1bc-3eaaed00d0ae",
+      "blockedId": "15479582-004f-0a84-106e-295cc5c763da",
+      "note": "viewer blocked the target - target must not appear"
+    }
+  ]
+}
